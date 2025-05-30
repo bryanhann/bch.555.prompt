@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo "$*" > ${BCH_PROMPT_taskfile}

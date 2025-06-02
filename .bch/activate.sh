@@ -10,8 +10,8 @@ __export__  _init  ${__root__}/.bch.init/init.sh
 __export__  _vendor ${__root__}/.bch.vendor
 __export__  taskfile ~/.tmp/bch.prompt.taskfile
 
-:::linkall::: ${__root__}/.bch.lbin
-:::append::: ${__root__}/.bch.bin
+bch:000:linkall ${__root__}/.bch.lbin
+bch:000:append  ${__root__}/.bch.bin
 
 source ${__root__}/.bch.init/init.sh
 
